@@ -12,12 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NatelevAU/header.git"
+    "url": "git+https://github.com/NatelevAU/pdf-viewer.git"
   },
   "keywords": [
-    "header",
-    "footer",
-    "navigation"
+    "pdf"
   ],
   "author": {
     "name": "Nathan Levy",
