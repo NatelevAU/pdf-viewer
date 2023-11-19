@@ -1,0 +1,42 @@
+{
+  "name": "@natelev/pdf-viewer",
+  "version": "1.0.0",
+  "description": "A component to render PDF files.",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "exports": "./build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatelevAU/header.git"
+  },
+  "keywords": [
+    "header",
+    "footer",
+    "navigation"
+  ],
+  "author": {
+    "name": "Nathan Levy",
+    "email": "nathan.levy.au@gmail.com",
+    "url": "https://nathanlevy.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NatelevAU/pdf-viewer/issues"
+  },
+  "homepage": "https://github.com/NatelevAU/pdf-viewer",
+  "peerDependencies": {
+    "@mui/material": ">=v5.0.0",
+    "react": ">=18.0.0",
+    "react-pdf": ">=7.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0"
+  }
+}
